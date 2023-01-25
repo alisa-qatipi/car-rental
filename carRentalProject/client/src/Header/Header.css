@@ -1,0 +1,15 @@
+.nav-item a::after, .nav-item a::before {
+    content: "";
+    height: 1px;
+    width: 0;
+    display: block;
+    background: white;
+    transition: 0.5s;
+}
+.nav-item a::before {
+    margin-left: auto;
+}
+
+.nav-item a:hover::after, .nav-item a:hover::before {
+    width: 100%;
+}

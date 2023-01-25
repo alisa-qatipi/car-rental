@@ -1,0 +1,40 @@
+.card{
+    width: 520px !important;
+    height: 300px !important;
+}
+
+#card1{
+    background-image: url("../images/cars/gClass.jpg");
+    background-size: cover;
+}
+
+#card2{
+    background-image: url("../images/cars/mclaren.jpg");
+    background-size: cover;
+}
+
+#card3{
+    background-image: url("../images/homepage/fleet1.jpg");
+    background-size: cover;
+}
+
+#card4{
+    background-image: url("../images/cars/hummer.jpg");
+    background-size: cover;
+}
+
+#card5{
+    background-image: url("../images/cars/mustang.jpg");
+    background-size: cover;
+}
+
+#card6{
+    background-image: url("../images/cars/bmwi8.webp");
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .card{
+        width: 350px !important;
+    }
+  }

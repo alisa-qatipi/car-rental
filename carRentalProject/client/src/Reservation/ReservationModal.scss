@@ -1,0 +1,35 @@
+.modali{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(116, 114, 114, 0.454);
+}
+.modal-contenti{
+    width: 950px ;
+    height: 425px;
+    background-color: white;
+    z-index: 99999;
+}
+
+
+.close{
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .modal-contenti{
+        width: 350px !important;
+        height: 630px !important;
+    }
+
+    h2{
+        font-size: medium !important;
+    }
+  }

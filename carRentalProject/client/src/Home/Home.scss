@@ -1,0 +1,35 @@
+
+
+#startBanner{
+    height: 80vh;
+    background-image: url(../images/homepage/startBanner.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    padding-top: 35vh;
+}
+
+.background-image{
+    width: 100%;
+}
+
+#btnBanner {
+    width: 240px;
+    transition: 0.3s;
+}
+
+#btnBanner:hover {
+    width: 250px;
+}
+
+.benefits {
+    width: 90%;
+    transition: 0.5s;
+    min-height: 320px;
+    max-height: 350px;
+}
+
+.benefits:hover {
+    transform: translateY(-35px) scale(1.1);
+    box-shadow: -6px 6px 25px rgba(0, 0, 0, 0.7);
+}
